@@ -1,0 +1,259 @@
+body{
+    background-color: black !important;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+nav a{
+    color: white !important;
+}
+.navbar img{
+    width: 120px;
+    margin-left: 230px;
+}
+.collapse{
+    margin-left: 320px;
+}
+.d-flex .custom-btn{
+    background-color: aqua !important;
+}
+.text-col{
+    padding: 150px;
+}
+.text-col p{
+    margin-top: 15px;
+}
+.text-col h1{
+    color: aqua;
+}
+.text-col img {
+    width: 40px; 
+    height: auto;
+    margin-left: 10px;
+}
+.img-col{
+    width: 50px !important;
+    height: 50px !important;
+}
+.img-col img{
+    width: 230px;
+    height: 370px;
+    margin-top: 120px;
+}
+.custom-btn-5{
+    background-color: aqua !important;
+    color: white !important;
+    border-radius: 10px;
+    padding: 5px;
+}
+.banner{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.nav-1 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.part-1 h4{
+    margin-left: 700px;
+    padding: 50px 0;
+    font-weight: 650;
+}
+.part-1{
+    margin-bottom: 0;
+}
+.p-div{
+    display: flex;
+    width: 5px;
+    gap: 10px;
+}
+.together{
+    display: flex;
+    gap: 10px;
+}
+.container{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.btn-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.part-1{
+    background-color: black;
+    color: white;
+}
+.nav-item {
+    margin-right: 10px;
+}
+.card{
+    margin-left: 380px;
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid gray !important;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px solid gray;
+    margin-bottom: 0;
+}
+.custom-row{
+    display: flex;
+    align-items: center;
+}
+i{
+    background-color: aqua;
+    color: black;
+}
+.expertise h4{
+    margin-left: 140px;
+    margin: 0;
+}
+.btn-1{
+    display: flex;
+    margin-left: 150px;
+    gap: 15px;
+}
+.expertise{
+    display: flex;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.expertise .btn-1 .d-flex-1 .custom-btn-1{
+    background-color: rgb(144, 154, 154) !important;
+    color: white !important;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+.right{
+    padding: 120px ;
+}
+.right h2{
+    margin-left: 120px;
+    color: aqua;
+}
+.right h4{
+    margin-right: 15px;
+    margin-left: 0px;
+}
+.right p{
+    margin-left: 200px;
+    margin-right: 0px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.contact h2{
+    margin-left: 580px;
+    margin-top: 0px;
+}
+.box{
+    width: 500px;
+    height: 270px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 15px gray;
+    margin-left: 450px;
+}
+.box-1{
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 155px;
+}
+.box-1 p{
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.box-2{
+    width: 240px;
+    height: 80px;
+    border: 1px solid gray;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.box-2 p{
+    padding: 20px;
+    margin-left: 9px;
+}
+.box-3{
+    width: 270px;
+    height: 30px;
+    border: 1px solid gray;
+    margin-left: 120px;
+    margin-top: 8px;
+}
+.box-3 p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(131, 139, 146);
+    background-size: cover !important;
+    color: aqua;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: black; 
+    color: white; 
+}
+footer h6{
+    padding: 15px;
+}
+
+.f-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px; 
+    gap: 30px;
+}
+
+.f-img img {
+    width: 30px; 
+    height: auto;
+    margin-top: 0 5px; 
+    gap: 40px;
+    margin-bottom: 5px;
+}
+
+ 
+@media only screen and (min-width:400px) and (max-width:767px){
+    body{
+        background-color: black;
+    }
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-color:black;
+    }
+    .description{
+        color: green;
+        display: none;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:2000px){
+    body{
+        background-color:black;
+    }
+    .description{
+        color: green;
+        display: none;
+    }
+}
